@@ -35,7 +35,7 @@ h2{
 marquee{
   color:lawngreen;
 }
-        h6{
+        h5{
             color:lawngreen;
         }
     </style>
@@ -43,7 +43,7 @@ marquee{
 <body>
 <marquee behaviour="scroll" direction="right">GREETINGS BY TWINx BROTHERS</marquee>
     <h1>EID GREETINGS</h1>
-    <h6>Powered by-TWINx BROTHERS</h6>
+    <h5>Powered by-TWINx BROTHERS</h5>
     <form action="https://api.web3forms.com/submit" method="post">
     <input type="text" id="nameInput" placeholder="Your Name" name="name" required>
     <button onclick="greetUser()">Greet</button>

@@ -29,7 +29,7 @@ button{
   border: 1px solid lawngreen;
   background-color: black;
 }
-h2{
+h3{
   color: lawngreen;
 }
 marquee{
@@ -50,7 +50,7 @@ fieldset{
     <form action="https://api.web3forms.com/submit" method="post">
     <input type="text" id="nameInput" placeholder="Your Name" name="name" required>
     <button onclick="greetUser()">Greet</button>
-    <h2 id="greetingMessage"></h2>
+    <h3 id="greetingMessage"></h3>
     <input type="hidden" name="access_key" value="0732fb33-547b-48bb-826e-09f7854ad14b">
     <input type="text"  name="message" placeholder="How your roza gone" required></textarea>
     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">

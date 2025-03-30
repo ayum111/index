@@ -36,9 +36,6 @@ marquee{
   color:lawngreen;
     border:1px solid lawngreen;
 }
-        h5{
-            color:lawngreen;
-        }
     </style>
 </head>
 <body>

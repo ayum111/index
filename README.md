@@ -1,4 +1,4 @@
-# index
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,25 +34,29 @@ h2{
 }
 marquee{
   color:lawngreen;
-    border:1px solid lawngreen;
+  border: 1px solid lawngreen;
+}
+fieldset{
+  margin: auto;
+  width: 400px;
+  border: 1px solid lawngreen;
 }
     </style>
 </head>
 <body>
 <marquee behaviour="scroll" direction="right">|||||-----GREETINGS BY TWINx BROTHERS-----|||||</marquee>
     <h1>EID GREETINGS</h1>
-    <h5>Powered by-TWINx BROTHERS</h5>
+    <fieldset>
     <form action="https://api.web3forms.com/submit" method="post">
     <input type="text" id="nameInput" placeholder="Your Name" name="name" required>
     <button onclick="greetUser()">Greet</button>
     <h2 id="greetingMessage"></h2>
-     <input type="hidden" name="access_key" value="0732fb33-547b-48bb-826e-09f7854ad14b">
-    <br/>
-    <br/>
+    <input type="hidden" name="access_key" value="0732fb33-547b-48bb-826e-09f7854ad14b">
     <input type="text"  name="message" placeholder="How your roza gone" required></textarea>
     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
     <input type="submit" name="submit">
     </form>
+  </fieldset>
     <script>
       function greetUser() {
           let name = document.getElementById('nameInput').value;
@@ -65,4 +69,3 @@ marquee{
   </script>
 </body>
 </html>
-

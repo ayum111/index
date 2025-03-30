@@ -34,6 +34,7 @@ h2{
 }
 marquee{
   color:lawngreen;
+    border:1px solid lawngreen;
 }
         h5{
             color:lawngreen;
@@ -41,7 +42,7 @@ marquee{
     </style>
 </head>
 <body>
-<marquee behaviour="scroll" direction="right">GREETINGS BY TWINx BROTHERS</marquee>
+<marquee behaviour="scroll" direction="right">|||||-----GREETINGS BY TWINx BROTHERS-----|||||</marquee>
     <h1>EID GREETINGS</h1>
     <h5>Powered by-TWINx BROTHERS</h5>
     <form action="https://api.web3forms.com/submit" method="post">
